@@ -4,7 +4,7 @@ This project contains a comprehensive collection of code tracing exercises desig
 
 ## Inspiration
 
-This project was inspired by 200 TracBook problems that I worked through while attending a coding camp. These exercises helped solidify my understanding of code tracing and method execution, and I wanted to compile and organize them for others to learn from as well.
+This project was inspired by 200 TraceBook problems that I worked through while attending a coding camp. These exercises helped solidify my understanding of code tracing and method execution, and I [...]
 
 ## Overview
 
