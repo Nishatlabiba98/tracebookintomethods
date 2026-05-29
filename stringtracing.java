@@ -26,16 +26,17 @@ public static int countChar(String s, char target) {
 //3. write a method that determines if the passed string is a palindrome or not
 
 public boolean isPalindrome(String s) { // access modifier, return type, method name and passed parameter. 
-    int left = 0;
-    int right= s.length() - 1;
-    while (left < right) {
-        if (s.charAt(left) != s.charAt(right)) {
-            return false;
+    int left = 0;//pointer  starts at the first character index
+    int right= s.length() - 1;//pointer at last character, minus cuz indexes are 0 based- a 7 character string's last index is 6 get it?
+    while (left < right) {// it keeps looing as long as the left pointer is not crossing the right one, once they meet in the middle, it is done. every pair matched. 
+
+        if (s.charAt(left) != s.charAt(right)) { //charAt grabs the character at that index. this checks do the characters do not match -
+            return false; //returns false and does not go further
         }
         left++;
-        right--;
+        right--; // if it matches the pointer moves inward
         }
-        return true;
+        return true; //every pair matched is a palindrome so it will return true. 
     }
 
 
