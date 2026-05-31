@@ -38,5 +38,16 @@ public boolean isPalindrome(String s) { // access modifier, return type, method 
         }
         return true; //every pair matched is a palindrome so it will return true. 
     }
+//4. given two strings, how would yu figure ou t if they are anagrams of each other?
 
+public boolean isAnagram(String s, String t) {
+    if (s.length() != t.length()) {
+        return false; // if the len is different then the function will stop here
+    }
+    char[] sArray = s.toCharArray();
+    char[] tArray = t.toCharArray();
+    Arrays.sort(sArray);// sorts the array alphabetically 
+    Arrays.sort(tArray);// sorts the array alphabetically
+    return Arrays.equals(sArray, tArray);
+}
 
