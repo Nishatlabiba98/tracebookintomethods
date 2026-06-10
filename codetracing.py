@@ -12,3 +12,11 @@ def odd_count():
         if i %2 ==1:
             count = count + 1
             return count
+        
+#3 write a method that generates the sum of odd numbers between 1 and 7 
+def odd_sum():
+    sum = 0
+    for i in range (1, 8):
+        if i % 2 == 1:
+            sum = sum + i
+    return sum
