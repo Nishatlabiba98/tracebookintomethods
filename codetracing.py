@@ -43,3 +43,10 @@ def multiples_of_fivve():
         if i % 5 == 0:
             total = total + i 
             return total
+#7 write a method that returns the count of numbers between 5 and 15 but that are less than 10.
+def count_less_than_ten():
+    count = 0
+    for i in range(5, 16):
+        if i < 10:
+            count= count + 1
+            return count
