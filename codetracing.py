@@ -50,3 +50,10 @@ def count_less_than_ten():
         if i < 10:
             count= count + 1
             return count
+#8write a method that returns a total of numbers from a given list of numbers 
+def sum_mixed_values() :
+    values = [7, 14, 21, 28]
+    total = 0
+    for i in range (0, len(values)):
+        total = total + values[i]
+        return total
