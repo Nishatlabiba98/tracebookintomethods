@@ -7,4 +7,10 @@ def is_palindrome(s :str) -> bool:
             return False
         left += 1
         right -= 1
-        return True
+        return Truecode 
+    #2
+    def is_anagram(s: str, t: str) -> bool:
+    if len(s) != len(t):
+        return False
+    return sorted(s) == sorted(t)
+    
